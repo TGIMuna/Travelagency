@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Book a flight form</title>
+</head>
+<body>
+    <h1>Enter your details to book a flight</h1>
+
+    <form>
+        <label for="username">Enter username: </label>
+        <input type="text" id="username" placeholder="enter your username" required>
+        <br><br>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" placeholder="enter your email" required>
+        <br><br>
+        <label for="password">Enter a password</label>
+        <input type="password" id="password" placeholder="enter your password" required>
+
+        <p>Select your age group: </p>
+
+        <input type="radio" name="age" value="infants 0-2yrs" id="first-pick">
+        <label for="first-pick">infants 0-2yrs</label>
+        <br><br>
+        <input type="radio" name="age" value="children 3-12yrs" id="second-pick">
+        <label for="second-pick">Children 3-12yrs</label>
+        <br><br>
+        <input type="radio" name="age" value="teenagers 13-17yrs" id="third-pick">
+        <label for="third-pick">Teenagers 13-17yrs</label>
+        <br><br>
+        <input type="radio" name="age" value="Adults 18+yrs" id="fourth-pick">
+        <label for="fourth-pick">Adults 18+</label>
+        <br><br>
+        <label for="Flighttype">Select your flight type</label>
+        <br><br>
+        <label for="Flight">One-Way Flights</label>
+        <select name="Flight" id="Flight">
+            <option value="Flight 1">Paris,France.</option>
+            <option value="Flight 2">London,England.</option>
+            <option value="Flight 3">Brussels,Germany.</option>
+        </select>
+        <br><br>
+        <label for="Flight1">Round-Trip Flights</label>
+        <select name="Flight1" id="Flight1">
+             <option value="Flight 1">Oslo,Norway.</option>
+             <option value="Flight 2">Wellington,New Zealand.</option>
+            <option value="Flight 3">Bucharest,Romania.</option>
+         </select>
+        <br><br>
+        <label for="Flight2">Multicity Flights</label>
+        <select name="Flight2" id="Flight2">
+            <option value="Flight 1">Prague,Czech Republic.</option>
+            <option value="Flight 2">Lima,Peru.</option>
+            <option value="Flight 3">Accra,Ghana.</option>
+        </select>
+        <br><br>
+        <label for="Specific requirements">Enter any  specific requirements:</label>
+        <br>
+        <textarea name="specfic requirements" id="specific requirements" cols="30" rows="10" placeholder="what you need.."></textarea>
+        <br><br>
+        <input type="submit" value="submit the form">
+
+
+    </form>
+
+
+
+
+
+</body>
+
+
+</html>
